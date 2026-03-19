@@ -1,0 +1,42 @@
+@media (max-width: 320px) {
+  .chat-container, .meeting-card {
+    padding: 10px;
+  }
+  .chat-message, .meeting-action {
+    font-size: 14px;
+  }
+  .chat-message, .meeting-action {
+    padding: 15px;
+  }
+  .chat-message, .meeting-action {
+    min-height: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .chat-container, .meeting-card {
+    padding: 12px;
+  }
+  .chat-message, .meeting-action {
+    font-size: 15px;
+  }
+  .chat-message, .meeting-action {
+    padding: 16px;
+  }
+  .chat-message, .meeting-action {
+    min-height: 55px;
+  }
+}
+@media (max-width: 768px) {
+  .chat-container, .meeting-card {
+    padding: 15px;
+  }
+  .chat-message, .meeting-action {
+    font-size: 16px;
+  }
+  .chat-message, .meeting-action {
+    padding: 20px;
+  }
+  .chat-message, .meeting-action {
+    min-height: 60px;
+  }
+}
